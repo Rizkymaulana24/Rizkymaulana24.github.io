@@ -16,12 +16,12 @@
 		      <label class="custom-control-label" for="customRadio0">Time Based</label>
 		    </div>
 		    <div class="custom-control custom-radio">
-		      <input type="radio" class="custom-control-input" id="customRadio1" name="example1">
-		      <label class="custom-control-label" for="customRadio1">Ubuntu Style</label>
-		    </div>
-		    <div class="custom-control custom-radio">
 		      <input type="radio" class="custom-control-input" id="customRadio10" name="example1">
 		      <label class="custom-control-label" for="customRadio10">Manual Input</label>
+		    </div>
+		    <!-- <div class="custom-control custom-radio">
+		      <input type="radio" class="custom-control-input" id="customRadio1" name="example1">
+		      <label class="custom-control-label" for="customRadio1">Ubuntu Style</label>
 		    </div>
 		    <div class="custom-control custom-radio">
 		      <input type="radio" class="custom-control-input" id="customRadio2" name="example1">
@@ -50,12 +50,8 @@
 		    <div class="custom-control custom-radio">
 		      <input type="radio" class="custom-control-input" id="customRadio8" name="example1">
 		      <label class="custom-control-label" for="customRadio8">Midnight</label>
-		    </div>
-		    <div class="custom-control custom-radio">
-		      <input type="radio" class="custom-control-input" id="customRadio9" name="example1">
-		      <label class="custom-control-label" for="customRadio9">RGB</label>
-		    </div>
-		    <input class="btn mt-3" id="color-picker" value='#0079FF' onclick="onClickWarna()" />
+		    </div> -->
+		    <input class="btn mt-3" id="color-picker" value='#134f5c' onclick="onClickWarna()" />
 		</div>
                 <audio src="mine.ogg" autoplay="true" loop="true"></audio>
 		<div class="bg ubuntu"></div>
@@ -221,8 +217,8 @@
 				if(localStorage.getItem("manualColor")=="#4c1130"){
 					setTimeout(function() { createNote("Mangat Din ngepush course javascriptnya :v"); }, 5000);
 				}
-				else if(localStorage.getItem("manualColor")=="#000000"){
-					setTimeout(function() { createNote("Hi teman, tetap semangat yaa"); }, 5000);
+				else if(localStorage.getItem("manualColor")=="#101221"){
+					setTimeout(function() { createNote("Hi sayangku yang paling cantik, i love u <3"); }, 5000);
 				}
 			}
 			function createNote(isi){
@@ -685,19 +681,7 @@
 
 			const quotes = [
 			  {
-			    "quote": "Bila kau tak tahan lelahnya belajar, maka kau harus tahan menanggung perihnya kebodohan",
-			    "source": "Imam Syafi'i"
-			  },
-			  {
-			    "quote": "Bahagia boleh, lupain temen?? jangan :)",
-			    "source": "Ekik Molana"
-			  },
-			  {
 			    "quote": "Maaf kalo jokes ku ga lucu, ya kan lucunya udah diborong kamu :')'",
-			    "source": "Ekik Molana"
-			  },
-			  {
-			    "quote": "Percuma bro inget masa lalu terus, mending planning buat masa depan",
 			    "source": "Ekik Molana"
 			  },
 			  {
@@ -709,28 +693,28 @@
 			    "source": "Ekik Molana"
 			  },
 			  {
-			    "quote": "Jangan pernah berharap untuk mengulang masa lalu, karena hal yang berharga tidak terjadi dua kali",
+			    "quote": "Berjanjilah untuk menikmati hidupmu, menjadi bahagia, apapun yang terjadi",
 			    "source": "Ekik Molana"
 			  },
 			  {
-			    "quote": "Ada kalimat yang ingin aku dengar dari dia, tapi itu tak pernah terjadi",
+			    "quote": "Terimakasih sudah berjuang hari ini",
+			    "source": "Ekik Molana"
+			  },
+			  {
+			    "quote": "Terimakasih karena terus bertahan sampai saat ini, jangan menyerah ya",
 			    "source": "Ekik Molana"
 			  },
 			  {
 			    "quote": "Jangan sampai menyesal kehilangan orang yang berharga",
-			    "source": "Ekik Molana"
-			  },
-			  {
-			    "quote": "Disaat yang lain sedang mengejar mimpi, eh aku malah rebahan",
-			    "source": "ABG jaman sekarang"
+			    "source": "Mbak Bunga"
 			  },
 			  {
 			    "quote": "Seorang bahagia bukan karena semua benar dalam hidupnya, tapi sikap terhadap hidupnya yang benar",
 			    "source": "Sundar Pichai"
 			  },
 			  {
-			    "quote": "Jika hari ini harus lebih baik darpada hari kemarin dan hari esok lebih baik daripada hari ini maka kelahiranmu adalah hari terburuk yang pernah ada",
-			    "source": "Om Hell"
+			    "quote": "I love you even if the world against us",
+			    "source": "Yang"
 			  },
 			]
 			setInterval(randomQuote, 60000);
